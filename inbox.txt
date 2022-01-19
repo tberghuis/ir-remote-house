@@ -38,3 +38,7 @@ package:/data/app/~~ut9c-2B7gXGm7PhTS2OI8Q==/de.harrygr.rcoid-u2CNK_sOPwGgNpmYx7
 
 
 work on https://www.lirc.org/html/mode2.html
+
+
+https://github.com/serdeliuk/irBuster
+
