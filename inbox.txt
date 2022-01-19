@@ -57,3 +57,6 @@ work on https://www.lirc.org/html/mode2.html
 
 https://github.com/serdeliuk/irBuster
 
+AC remote clone
+
+first do android tv box remote
