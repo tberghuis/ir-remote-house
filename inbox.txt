@@ -60,3 +60,6 @@ https://github.com/serdeliuk/irBuster
 AC remote clone
 
 first do android tv box remote
+
+
+.\IRRecord.exe -d IRToy.dll ..\..\ac-remote.cfg
