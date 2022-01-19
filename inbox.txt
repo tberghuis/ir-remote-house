@@ -1,3 +1,18 @@
+
+#####################
+lirc linux
+
+/etc/lirc/lirc_options.conf
+  driver          = irtoy
+  device          = /dev/ttyACM0
+
+stop start lircd systemctl
+
+sudo mode2
+
+#######################3
+
+
 start single remote, this can be part of my portfolio
 
 https://www.irdroid.com/
