@@ -5,6 +5,9 @@
 
     <uses-permission android:name="android.permission.TRANSMIT_IR" />
 
+    <!--    todo remove this-->
+    <uses-permission android:name="android.permission.INTERNET" />
+
 
     <application
         android:allowBackup="true"

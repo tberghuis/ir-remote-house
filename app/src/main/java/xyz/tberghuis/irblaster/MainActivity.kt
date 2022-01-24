@@ -9,6 +9,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
 import xyz.tberghuis.irblaster.ui.IrDemo
+import xyz.tberghuis.irblaster.ui.WebviewDemo
 import xyz.tberghuis.irblaster.ui.theme.IRBlasterTheme
 
 class MainActivity : ComponentActivity() {
@@ -18,23 +19,11 @@ class MainActivity : ComponentActivity() {
       IRBlasterTheme {
         // A surface container using the 'background' color from the theme
         Surface(color = MaterialTheme.colors.background) {
-//          Greeting("Android")
-          IrDemo()
+
+//          IrDemo()
+          WebviewDemo()
         }
       }
     }
-  }
-}
-
-@Composable
-fun Greeting(name: String) {
-  Text(text = "Hello $name!")
-}
-
-@Preview(showBackground = true)
-@Composable
-fun DefaultPreview() {
-  IRBlasterTheme {
-    Greeting("Android")
   }
 }
