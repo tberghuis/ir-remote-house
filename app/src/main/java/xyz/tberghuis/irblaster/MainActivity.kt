@@ -22,8 +22,8 @@ class MainActivity : ComponentActivity() {
       IRBlasterTheme {
         Surface(color = MaterialTheme.colors.background) {
 //          IrDemo()
-//          WebviewDemo()
-          OpenFileDemo()
+          WebviewDemo()
+//          OpenFileDemo()
         }
       }
     }
