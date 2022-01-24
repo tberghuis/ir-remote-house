@@ -1,5 +1,6 @@
-design remote with nextjs
-static export
+design remote with vuejs
+https://github.com/richardtallent/vite-plugin-singlefile
+static export??? pre-rendered manually copy generated html chrome devtools
 
 ########################
 
