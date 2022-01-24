@@ -2,6 +2,8 @@ design remote with vuejs
 https://github.com/richardtallent/vite-plugin-singlefile
 static export??? pre-rendered manually copy generated html chrome devtools
 
+next task, primative design
+
 ########################
 
 webview hello world
