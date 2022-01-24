@@ -7,6 +7,9 @@ navigation
 
 load html from file picker into room db
 
+finish MVP for my custom tv remote
+design UI/UX for product release
+
 #####################
 lirc linux
 
