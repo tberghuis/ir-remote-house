@@ -1,4 +1,16 @@
 package xyz.tberghuis.irblaster.ui.vm
 
-class RemoteViewModel {
+import androidx.lifecycle.SavedStateHandle
+import androidx.lifecycle.ViewModel
+import dagger.hilt.android.lifecycle.HiltViewModel
+import javax.inject.Inject
+
+
+@HiltViewModel
+class RemoteViewModel
+@Inject constructor(
+  savedStateHandle: SavedStateHandle
+) : ViewModel() {
+  val helloRemoteViewModel = "remote view model"
 }
+

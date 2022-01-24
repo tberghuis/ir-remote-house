@@ -8,11 +8,13 @@ import androidx.compose.material.Surface
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
+import dagger.hilt.android.AndroidEntryPoint
 import xyz.tberghuis.irblaster.ui.IrDemo
 import xyz.tberghuis.irblaster.ui.OpenFileDemo
 import xyz.tberghuis.irblaster.ui.WebviewDemo
 import xyz.tberghuis.irblaster.ui.theme.IRBlasterTheme
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
