@@ -18,17 +18,19 @@ fun WebviewDemo() {
 
   AndroidView(factory = {
     WebView(context).apply {
-
-      // do i need this
       webViewClient = WebViewClient()
-//      webChromeClient
       settings.javaScriptEnabled = true
 
       addJavascriptInterface(WebAppInterface(context), "Android")
+
+
+      //
       loadUrl("file:///android_asset/demo.html")
+
     }
   })
 }
+
 
 class WebAppInterface(private val context: Context) {
 
