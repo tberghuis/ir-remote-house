@@ -9,6 +9,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
 import xyz.tberghuis.irblaster.ui.IrDemo
+import xyz.tberghuis.irblaster.ui.OpenFileDemo
 import xyz.tberghuis.irblaster.ui.WebviewDemo
 import xyz.tberghuis.irblaster.ui.theme.IRBlasterTheme
 
@@ -17,11 +18,10 @@ class MainActivity : ComponentActivity() {
     super.onCreate(savedInstanceState)
     setContent {
       IRBlasterTheme {
-        // A surface container using the 'background' color from the theme
         Surface(color = MaterialTheme.colors.background) {
-
 //          IrDemo()
-          WebviewDemo()
+//          WebviewDemo()
+          OpenFileDemo()
         }
       }
     }
