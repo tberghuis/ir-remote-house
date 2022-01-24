@@ -1,4 +1,12 @@
 
+webview hello world
+js to talk to kotlin
+ir blaster test
+... finish what i started
+navigation
+
+load html from file picker into room db
+
 #####################
 lirc linux
 
@@ -57,7 +65,7 @@ work on https://www.lirc.org/html/mode2.html
 
 https://github.com/serdeliuk/irBuster
 
-AC remote clone
+AC remote clone, does not work
 
 first do android tv box remote
 
