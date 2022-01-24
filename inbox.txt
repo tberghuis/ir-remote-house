@@ -1,3 +1,7 @@
+design remote with nextjs
+static export
+
+########################
 
 webview hello world
 js to talk to kotlin
