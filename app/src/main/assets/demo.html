@@ -6,32 +6,9 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-
-    <!-- can i move js into external file -->
-    <script src="main.js"></script>
-    <script type="text/javascript">
-      // can this js be injected from kotlin
-
-      function showAndroidToast(toast) {
-        Android.showToast(toast);
-      }
-    </script>
   </head>
   <body>
     <div>hello world this is from assets</div>
-    <div>
-      <input
-        type="button"
-        value="Say hello"
-        onClick="showAndroidToast('Hello Android!')"
-      />
-
-      <input
-        type="button"
-        value="alert test"
-        onClick="alert('Hello! I am an alert box!!');"
-      />
-    </div>
     <br /><br /><br /><br />
     <div>
       <input
