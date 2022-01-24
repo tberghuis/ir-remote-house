@@ -29,12 +29,12 @@ fun WebviewDemo() {
   })
 }
 
-class WebAppInterface(private val mContext: Context) {
+class WebAppInterface(private val context: Context) {
 
   /** Show a toast from the web page  */
   @JavascriptInterface
   fun showToast(toast: String) {
-    Toast.makeText(mContext, toast, Toast.LENGTH_SHORT).show()
+    Toast.makeText(context, toast, Toast.LENGTH_SHORT).show()
   }
 }
 
