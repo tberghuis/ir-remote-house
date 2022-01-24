@@ -703,7 +703,8 @@ fun PanasonicPower(irMan: ConsumerIrManager) {
   }
 }
 
-
+// does not work, but app from play store does...
+// look up codes from internet
 @Composable
 fun AcPower(irMan: ConsumerIrManager) {
   Button(onClick = {

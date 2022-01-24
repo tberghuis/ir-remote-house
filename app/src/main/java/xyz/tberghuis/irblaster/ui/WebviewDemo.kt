@@ -1,6 +1,7 @@
 package xyz.tberghuis.irblaster.ui
 
 import android.content.Context
+import android.hardware.ConsumerIrManager
 import android.webkit.JavascriptInterface
 import android.webkit.WebView
 import android.webkit.WebViewClient
@@ -31,10 +32,21 @@ fun WebviewDemo() {
 
 class WebAppInterface(private val context: Context) {
 
+  private val irMan = context.getSystemService(Context.CONSUMER_IR_SERVICE) as ConsumerIrManager
+
+
   /** Show a toast from the web page  */
   @JavascriptInterface
   fun showToast(toast: String) {
     Toast.makeText(context, toast, Toast.LENGTH_SHORT).show()
   }
+
+
+  @JavascriptInterface
+  fun transmit(sPattern: String) {
+    val pattern = sPattern.split(",").map { it.toInt() }.toIntArray()
+    irMan.transmit(38000, pattern)
+  }
+
 }
 
