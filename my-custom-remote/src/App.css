@@ -1,0 +1,9 @@
+/* .my-remote > div {
+  margin: 0 auto;
+} */
+
+.my-remote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

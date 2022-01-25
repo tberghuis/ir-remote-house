@@ -7,10 +7,15 @@ function App() {
   // const [count, setCount] = useState(0);
 
   return (
-    <div className="App">
-      <div>hello app</div>
-      <Button pattern={patterns.PTN_JVC_POWER} />
-      <Button pattern={patterns.PTN_X96_POWER} />
+    <div className="my-remote">
+      <div>JVC TV</div>
+      <br />
+      <Button label="power" pattern={patterns.PTN_POWER} />
+      <br />
+      <br />
+      <Button label="mute" pattern={patterns.PTN_MUTE} />
+      <br />
+      <div>todo...</div>
     </div>
   );
 }
