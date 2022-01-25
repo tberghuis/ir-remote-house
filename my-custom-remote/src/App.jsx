@@ -6,7 +6,7 @@ import "./App.css";
 function App() {
   return (
     <div className="my-remote">
-      <div>JVC TV upload</div>
+      <div className="font-bold">JVC TV upload</div>
       <br />
       <Button label="power" pattern={patterns.PTN_POWER} />
       <Button label="mute" pattern={patterns.PTN_MUTE} />

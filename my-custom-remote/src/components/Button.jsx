@@ -13,9 +13,12 @@ function Button({ className, label, pattern }) {
   }
 
   return (
-    <div className={classNames("my-button", className)}>
-      <input type="button" value={label} onClick={handleClick} />
-    </div>
+    <button
+      className="bg-black text-white font-bold py-1 px-2 rounded"
+      onClick={handleClick}
+    >
+      {label}
+    </button>
   );
 }
 

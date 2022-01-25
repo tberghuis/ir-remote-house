@@ -1,7 +1,7 @@
 
 next task, primative design
-
-fontawesome
+learn tailwind
+fontawesome react-icons/fa power skip etc
 copy from https://codepen.io/ETWeekend/pen/rLdgOz
 
 ########################
