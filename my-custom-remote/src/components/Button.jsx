@@ -1,7 +1,8 @@
 function Button({ label, pattern }) {
   function handleClick() {
     if (window.Android) {
-      window.Android.transmit(pattern);
+      // window.Android.transmit(pattern);
+      window.Android.transmitArray(pattern);
     }
     console.log("button click", pattern);
   }

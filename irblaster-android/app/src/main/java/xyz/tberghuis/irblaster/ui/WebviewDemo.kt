@@ -69,5 +69,12 @@ class WebAppInterface(private val context: Context) {
     irMan.transmit(38000, pattern)
   }
 
+  @JavascriptInterface
+  fun transmitArray(pattern: IntArray) {
+//    val pattern = sPattern.split(",").map { it.toInt() }.toIntArray()
+    irMan.transmit(38000, pattern)
+  }
+
+
 }
 

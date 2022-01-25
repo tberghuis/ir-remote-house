@@ -1,0 +1,3 @@
+cd .\my-custom-remote\
+npm run build
+adb push .\dist\index.html /sdcard/TOM/ir-remotes/

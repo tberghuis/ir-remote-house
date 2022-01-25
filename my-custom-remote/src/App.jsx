@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="my-remote">
-      <div>JVC TV</div>
+      <div>JVC TV upload</div>
       <br />
       <Button label="power" pattern={patterns.PTN_POWER} />
       <br />
