@@ -3,6 +3,8 @@ copy from https://codepen.io/ETWeekend/pen/rLdgOz
 
 aquire jvc remote patterns
 
+research how to emulate holding down button like vol up or rewind
+
 ########################
 
 webview hello world
