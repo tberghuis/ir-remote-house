@@ -1,8 +1,7 @@
 
-next task, primative design
-learn tailwind
-fontawesome react-icons/fa power skip etc
 copy from https://codepen.io/ETWeekend/pen/rLdgOz
+
+aquire jvc remote patterns
 
 ########################
 
