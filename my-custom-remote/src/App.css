@@ -2,16 +2,12 @@
   margin: 0 auto;
 } */
 
-.my-remote {
+.my-remote-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.row {
-  display: flex;
-}
-
-.margin {
+.my-remote-container > * { 
   margin-top: 20px;
 }
