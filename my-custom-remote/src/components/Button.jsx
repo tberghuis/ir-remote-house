@@ -1,7 +1,7 @@
 // var classNames = require('classnames');
 import classNames from "classnames";
 
-function Button({ className, label, pattern }) {
+function Button({ icon, className, label, pattern }) {
   // const childClassNames = classNames("child-class", className);
 
   function handleClick() {
@@ -17,7 +17,7 @@ function Button({ className, label, pattern }) {
       className="bg-black text-white font-bold py-1 px-2 rounded"
       onClick={handleClick}
     >
-      {label}
+      {icon ? icon : label}
     </button>
   );
 }

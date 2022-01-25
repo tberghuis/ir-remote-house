@@ -1,6 +1,7 @@
 // import { useState } from "react";
 import Button from "./components/Button";
 import * as patterns from "./patterns";
+import { FaBeer } from "react-icons/fa";
 import "./App.css";
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
     <div className="my-remote-container">
       <div className="">JVC TV</div>
       <br />
-      <Button label="power" pattern={patterns.PTN_POWER} />
+      <Button icon={<FaBeer />} label="power" pattern={patterns.PTN_POWER} />
       <Button label="mute" pattern={patterns.PTN_MUTE} />
 
       <Button className="" label="back" pattern={patterns.PTN_BACK} />
