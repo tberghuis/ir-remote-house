@@ -1,29 +1,53 @@
 // import { useState } from "react";
 import Button from "./components/Button";
 import * as patterns from "./patterns";
-import { FaBeer } from "react-icons/fa";
+import {
+  FaPowerOff,
+  FaVolumeMute,
+  FaArrowUp,
+  FaArrowLeft,
+  FaArrowRight,
+  FaArrowDown,
+  FaPlay,
+  FaBackspace,
+  FaBackward,
+  FaPause,
+  FaForward,
+  FaFastBackward,
+  FaFastForward,
+} from "react-icons/fa";
 import "./App.css";
 
 function App() {
   return (
-    <div className="my-remote-container">
+    <div className="flex flex-col items-center space-y-3">
       <div className="">JVC TV</div>
-      <br />
-      <Button icon={<FaBeer />} label="power" pattern={patterns.PTN_POWER} />
-      <Button label="mute" pattern={patterns.PTN_MUTE} />
 
-      <Button className="" label="back" pattern={patterns.PTN_BACK} />
-
-      <Button label="up" pattern={patterns.PTN_UP} />
       <div className="space-x-3">
-        <Button label="<-" pattern={patterns.PTN_LEFT} />
-        <Button label="ok" pattern={patterns.PTN_OK} />
-        <Button label="->" pattern={patterns.PTN_RIGHT} />
+        <Button icon={<FaPowerOff />} pattern={patterns.PTN_POWER} />
+        <Button icon={<FaVolumeMute />} pattern={patterns.PTN_MUTE} />
       </div>
-      <Button label="down" pattern={patterns.PTN_DOWN} />
+      <div>
+        <Button icon={<FaBackspace />} pattern={patterns.PTN_BACK} />
+      </div>
+      <div>
+        <Button icon={<FaArrowUp />} pattern={patterns.PTN_UP} />
+      </div>
+      <div className="space-x-3">
+        <Button icon={<FaArrowLeft />} pattern={patterns.PTN_LEFT} />
+        <Button label="ok" pattern={patterns.PTN_OK} />
+        <Button icon={<FaArrowRight />} pattern={patterns.PTN_RIGHT} />
+      </div>
+      <div>
+        <Button icon={<FaArrowDown />} pattern={patterns.PTN_DOWN} />
+      </div>
 
-      <Button label="vol+" pattern={patterns.PTN_VOLUP} />
-      <Button label="vol-" pattern={patterns.PTN_VOLDOWN} />
+      <div>
+        <Button label="vol +" pattern={patterns.PTN_VOLUP} />
+      </div>
+      <div>
+        <Button label="vol -" pattern={patterns.PTN_VOLDOWN} />
+      </div>
 
       <div className="space-x-3">
         <Button label="source" pattern={patterns.PTN_SOURCE} />
@@ -31,15 +55,15 @@ function App() {
       </div>
 
       <div className="space-x-3">
-        <Button label="play" pattern={patterns.PTN_PLAY} />
-        <Button label="pause" pattern={patterns.PTN_PAUSE} />
+        <Button icon={<FaPlay />} pattern={patterns.PTN_PLAY} />
+        <Button icon={<FaPause />} pattern={patterns.PTN_PAUSE} />
       </div>
 
       <div className="space-x-3">
-        <Button label="<<" pattern={patterns.PTN_REWIND} />
-        <Button label="|<<" pattern={patterns.PTN_SKIPPREV} />
-        <Button label=">>|" pattern={patterns.PTN_SKIPNEXT} />
-        <Button label=">>" pattern={patterns.PTN_FFWD} />
+        <Button icon={<FaBackward />} pattern={patterns.PTN_REWIND} />
+        <Button icon={<FaFastBackward />} pattern={patterns.PTN_SKIPPREV} />
+        <Button icon={<FaFastForward />} pattern={patterns.PTN_SKIPNEXT} />
+        <Button icon={<FaForward />} pattern={patterns.PTN_FFWD} />
       </div>
     </div>
   );
