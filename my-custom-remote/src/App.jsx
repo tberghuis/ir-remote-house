@@ -1,6 +1,6 @@
 // import { useState } from "react";
 import Button from "./components/Button";
-
+import * as patterns from "./patterns";
 import "./App.css";
 
 function App() {
@@ -9,7 +9,8 @@ function App() {
   return (
     <div className="App">
       <div>hello app</div>
-      <Button />
+      <Button pattern={patterns.PTN_JVC_POWER} />
+      <Button pattern={patterns.PTN_X96_POWER} />
     </div>
   );
 }
