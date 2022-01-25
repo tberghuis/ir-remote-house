@@ -1,6 +1,9 @@
 
 next task, primative design
 
+fontawesome
+copy from https://codepen.io/ETWeekend/pen/rLdgOz
+
 ########################
 
 webview hello world
