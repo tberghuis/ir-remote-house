@@ -1,4 +1,9 @@
-function Button({ label, pattern }) {
+// var classNames = require('classnames');
+import classNames from "classnames";
+
+function Button({ className, label, pattern }) {
+  // const childClassNames = classNames("child-class", className);
+
   function handleClick() {
     if (window.Android) {
       // window.Android.transmit(pattern);
@@ -8,7 +13,7 @@ function Button({ label, pattern }) {
   }
 
   return (
-    <div className="my-button">
+    <div className={classNames("my-button", className)}>
       <input type="button" value={label} onClick={handleClick} />
     </div>
   );

@@ -11,7 +11,7 @@ function App() {
       <Button label="power" pattern={patterns.PTN_POWER} />
       <Button label="mute" pattern={patterns.PTN_MUTE} />
 
-      <Button label="back" pattern={patterns.PTN_BACK} />
+      <Button className="margin" label="back" pattern={patterns.PTN_BACK} />
 
       <Button label="up" pattern={patterns.PTN_UP} />
       <div className="row">
