@@ -1,6 +1,3 @@
-design remote with vanilla react
-https://github.com/richardtallent/vite-plugin-singlefile
-static export??? pre-rendered manually copy generated html chrome devtools
 
 next task, primative design
 
