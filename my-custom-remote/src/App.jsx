@@ -20,10 +20,10 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="flex flex-col items-center space-y-3">
+    <div className="flex flex-col items-center space-y-6 text-4xl my-8">
       <div className="">JVC TV</div>
 
-      <div className="space-x-3">
+      <div className="space-x-6">
         <Button icon={<FaPowerOff />} pattern={patterns.PTN_POWER} />
         <Button icon={<FaVolumeMute />} pattern={patterns.PTN_MUTE} />
       </div>
@@ -33,7 +33,7 @@ function App() {
       <div>
         <Button icon={<FaArrowUp />} pattern={patterns.PTN_UP} />
       </div>
-      <div className="space-x-3">
+      <div className="space-x-6">
         <Button icon={<FaArrowLeft />} pattern={patterns.PTN_LEFT} />
         <Button label="ok" pattern={patterns.PTN_OK} />
         <Button icon={<FaArrowRight />} pattern={patterns.PTN_RIGHT} />
@@ -49,17 +49,17 @@ function App() {
         <Button label="vol -" pattern={patterns.PTN_VOLDOWN} />
       </div>
 
-      <div className="space-x-3">
+      <div className="space-x-6">
         <Button label="source" pattern={patterns.PTN_SOURCE} />
         <Button label="netflix" pattern={patterns.PTN_NETFLIX} />
       </div>
 
-      <div className="space-x-3">
+      <div className="space-x-6">
         <Button icon={<FaPlay />} pattern={patterns.PTN_PLAY} />
         <Button icon={<FaPause />} pattern={patterns.PTN_PAUSE} />
       </div>
 
-      <div className="space-x-3">
+      <div className="space-x-6">
         <Button icon={<FaBackward />} pattern={patterns.PTN_REWIND} />
         <Button icon={<FaFastBackward />} pattern={patterns.PTN_SKIPPREV} />
         <Button icon={<FaFastForward />} pattern={patterns.PTN_SKIPNEXT} />
