@@ -3,14 +3,14 @@ add navigation
 integrate room
 table remote
   - id, sort order, title, URI
-actionbar, title, overflow menu add remote
+actionbar, title, overflow menu add remote, delete
 navdrawer - list of remotes
 
 cull inbox.txt
 clean code
 fdroid release
 play store release
-marketing reddit, github
+marketing reddit, github, yt video
 
 #############
 copy from https://codepen.io/ETWeekend/pen/rLdgOz
