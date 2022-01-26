@@ -1,4 +1,18 @@
+x96air remote
+add navigation
+integrate room
+table remote
+  - id, sort order, title, URI
+actionbar, title, overflow menu add remote
+navdrawer - list of remotes
 
+cull inbox.txt
+clean code
+fdroid release
+play store release
+marketing reddit, github
+
+#############
 copy from https://codepen.io/ETWeekend/pen/rLdgOz
 
 aquire jvc remote patterns
