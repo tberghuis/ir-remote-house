@@ -5,6 +5,8 @@ aquire jvc remote patterns
 
 research how to emulate holding down button like vol up or rewind
 
+E:\TOM\apps\irdroid\winlirc-0.9.0i\WinLIRC\RawCodes.exe
+
 ########################
 
 webview hello world
