@@ -14,7 +14,10 @@ function Button({ icon, className, label, pattern }) {
 
   return (
     <button
-      className="bg-black text-white font-bold py-1 px-2 rounded"
+      className={classNames(
+        className,
+        "bg-black text-white font-bold py-1 px-2 rounded"
+      )}
       onClick={handleClick}
     >
       {icon ? icon : label}
