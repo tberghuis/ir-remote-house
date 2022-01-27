@@ -1,106 +1,15 @@
-clean code, inbox
-independent repos for each remote
-what to name this project???
+clean inbox
 github release
 
 #######################
-x96air remote
 add navigation
 integrate room
-table remote
+sqlite table - remote
   - id, sort order, title, URI
 actionbar, title, overflow menu add remote, delete
 navdrawer - list of remotes
-
-cull inbox.txt
-clean code
 fdroid release
 play store release
 marketing reddit, github, yt video
 
 #############
-copy from https://codepen.io/ETWeekend/pen/rLdgOz
-
-aquire jvc remote patterns
-
-research how to emulate holding down button like vol up or rewind
-
-E:\TOM\apps\irdroid\winlirc-0.9.0i\WinLIRC\RawCodes.exe
-
-########################
-
-webview hello world
-js to talk to kotlin
-ir blaster test
-... finish what i started
-navigation
-
-load html from file picker into room db
-
-finish MVP for my custom tv remote
-design UI/UX for product release
-
-#####################
-lirc linux
-
-/etc/lirc/lirc_options.conf
-  driver          = irtoy
-  device          = /dev/ttyACM0
-
-stop start lircd systemctl
-
-sudo mode2
-
-#######################3
-
-
-start single remote, this can be part of my portfolio
-
-https://www.irdroid.com/
-https://www.irdroid.com/2013/11/irdroid-usb-ir-tranceiver-introduction/
-
-power button
-38000,340,170,22,21,22,21,22,21,22,21,22,21,22,21,22,63,22,21,22,63,22,63,22,63,22,63,22,63,22,63,22,21,22,63,22,21,22,63,22,21,22,21,22,63,22,21,22,21,22,21,22,63,22,21,22,63,22,63,22,21,22,63,22,63,22,63,21,1
-
-blog that helped me with rcoid
-https://dialecticallibre.wordpress.com/2015/01/11/creating-an-android-remote-control-to-replace-your-physical-remotes/
-https://play.google.com/store/apps/details?id=de.harrygr.rcoid&hl=en
-https://www.youtube.com/watch?v=7FCZ0hBDmH4
-https://www.youtube.com/user/HarryGrde
-
-read this source code to learn how to convert from lirc cfg
-https://github.com/Irdroid/Irdroid
-
-try https://github.com/Irdroid/Irdroid-USB
-
-
-first task is irblaster hello world, jvc power button
-
-the real use case would be program stuff with google assistant
-
-can i get that headphone jack blaster working????
-
-App for IR remotes
-contact with lirc file and photograph
-
-arch wiki lirc
-
-
-
-#########
-package:/data/app/~~ut9c-2B7gXGm7PhTS2OI8Q==/de.harrygr.rcoid-u2CNK_sOPwGgNpmYx7sRzw==/base.apk
-package:/data/app/~~ut9c-2B7gXGm7PhTS2OI8Q==/de.harrygr.rcoid-u2CNK_sOPwGgNpmYx7sRzw==/split_config.en.apk
-package:/data/app/~~ut9c-2B7gXGm7PhTS2OI8Q==/de.harrygr.rcoid-u2CNK_sOPwGgNpmYx7sRzw==/split_config.xxhdpi.apk
-
-
-work on https://www.lirc.org/html/mode2.html
-
-
-https://github.com/serdeliuk/irBuster
-
-AC remote clone, does not work
-
-first do android tv box remote
-
-
-.\IRRecord.exe -d IRToy.dll ..\..\ac-remote.cfg

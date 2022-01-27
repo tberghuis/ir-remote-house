@@ -1,0 +1,2 @@
+independent repos for each remote
+research how to emulate holding down button like vol up or rewind

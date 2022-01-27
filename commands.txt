@@ -3,3 +3,8 @@ adb connect poco
 cd .\remotes\jvc-tv\
 npm run build
 adb push .\dist\index.html /sdcard/TOM/ir-remotes/jvc-tv.html
+
+
+cd E:\TOM\apps\irdroid\winlirc-0.9.0i\WinLIRC\
+.\RawCodes.exe
+clear

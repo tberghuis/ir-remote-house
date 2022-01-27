@@ -1,0 +1,18 @@
+https://www.irdroid.com/
+
+#####################
+lirc linux
+
+/etc/lirc/lirc_options.conf
+  driver          = irtoy
+  device          = /dev/ttyACM0
+
+stop start lircd systemctl
+
+sudo mode2
+
+#######################################
+
+AC remote clone, does not work
+
+.\IRRecord.exe -d IRToy.dll ..\..\ac-remote.cfg
