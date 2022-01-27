@@ -2,12 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="xyz.tberghuis.irblaster">
 
-
     <uses-permission android:name="android.permission.TRANSMIT_IR" />
 
-    <!--    todo remove this-->
-    <uses-permission android:name="android.permission.INTERNET" />
-
+    <!--    might need for remotes that reference internet-->
+    <!--    <uses-permission android:name="android.permission.INTERNET" />-->
 
     <application
         android:name=".MainApplication"
@@ -24,7 +22,6 @@
             android:theme="@style/Theme.IRBlaster.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
