@@ -1,3 +1,9 @@
+clean code, inbox
+independent repos for each remote
+what to name this project???
+github release
+
+#######################
 x96air remote
 add navigation
 integrate room
