@@ -2,4 +2,4 @@ adb connect poco
 
 cd .\remotes\jvc-tv\
 npm run build
-adb push .\dist\index.html /sdcard/TOM/ir-remotes/x96air.html
+adb push .\dist\index.html /sdcard/TOM/ir-remotes/jvc-tv.html
