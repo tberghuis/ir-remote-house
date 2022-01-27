@@ -5,7 +5,6 @@ import android.hardware.ConsumerIrManager
 import android.webkit.JavascriptInterface
 import android.webkit.WebView
 import android.webkit.WebViewClient
-import android.widget.Toast
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.layout.Column
@@ -17,7 +16,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.viewinterop.AndroidView
 
-
+// todo rename function
 @Composable
 fun WebviewDemo() {
   val context = LocalContext.current
@@ -27,7 +26,6 @@ fun WebviewDemo() {
       // TODO deal with null result
       url.value = result!!.toString()
     }
-
 
   Column {
     Button(onClick = {
@@ -41,8 +39,6 @@ fun WebviewDemo() {
         webViewClient = WebViewClient()
         settings.javaScriptEnabled = true
         addJavascriptInterface(WebAppInterface(context), "Android")
-        //      loadUrl("file:///android_asset/demo.html")
-        //loadData()
       }
     }, update = {
       it.loadUrl(url.value)
@@ -50,31 +46,17 @@ fun WebviewDemo() {
   }
 }
 
-
 class WebAppInterface(private val context: Context) {
-
   private val irMan = context.getSystemService(Context.CONSUMER_IR_SERVICE) as ConsumerIrManager
 
-
-  /** Show a toast from the web page  */
-  @JavascriptInterface
-  fun showToast(toast: String) {
-    Toast.makeText(context, toast, Toast.LENGTH_SHORT).show()
-  }
-
-
-  @JavascriptInterface
-  fun transmit(sPattern: String) {
-    val pattern = sPattern.split(",").map { it.toInt() }.toIntArray()
-    irMan.transmit(38000, pattern)
-  }
+//  @JavascriptInterface
+//  fun transmit(sPattern: String) {
+//    val pattern = sPattern.split(",").map { it.toInt() }.toIntArray()
+//    irMan.transmit(38000, pattern)
+//  }
 
   @JavascriptInterface
   fun transmitArray(pattern: IntArray) {
-//    val pattern = sPattern.split(",").map { it.toInt() }.toIntArray()
     irMan.transmit(38000, pattern)
   }
-
-
 }
-
